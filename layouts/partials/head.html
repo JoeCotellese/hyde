@@ -30,6 +30,7 @@
   {{ range .AlternativeOutputFormats -}}
     {{ printf `<link href="%s" rel="%s" type="%s" title="%s" />` .Permalink .Rel .MediaType.Type $.Site.Title | safeHTML }}
   {{ end -}}
+  {{ template "_internal/twitter_cards.html" . }}
   {{ partial "schemas/schema_Global.html" . }}
   {{ partial "hook_head_end.html" . }}
 </head>
