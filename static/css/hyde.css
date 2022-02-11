@@ -32,7 +32,7 @@
  */
 
 html {
-  font-family: "PT Sans", Helvetica, Arial, sans-serif;
+  font-family: "Roboto", Helvetica, Arial, sans-serif;
 }
 
 @media (min-width: 48em) {
@@ -86,8 +86,8 @@ html {
 .sidebar-about h1 {
   color: #fff;
   margin-top: 0;
-  font-family: "Abril Fatface", serif;
-  font-size: 3.25rem;
+  font-family: "Palanquin Dark", serif;
+  font-size: 3rem;
 }
 
 /* Sidebar nav */
@@ -134,6 +134,11 @@ a.sidebar-nav-item:focus {
 .content {
   padding-top: 4rem;
   padding-bottom: 4rem;
+}
+
+.content h1 {
+  font-family: 'Palanquin', serif;
+  font-size: 1.75rem;
 }
 
 @media (min-width: 48em) {
