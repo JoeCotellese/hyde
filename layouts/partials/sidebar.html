@@ -3,7 +3,7 @@
     <div class="sidebar-about">
       {{ with resources.Get "images/headshot.jpg" }}
       {{ with .Resize "200x200 webp" }}
-        <img class="profile" src="{{ .RelPermalink }}" width="{{.Width}}">
+        <img class="profile" src="{{ .RelPermalink }}" width="{{.Width}}" defer>
       {{ end }}
       {{ end }}
       <a href="{{ .Site.BaseURL }}"><h2 class="site_title">{{ .Site.Title }}</h2></a>
